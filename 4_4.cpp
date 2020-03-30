@@ -19,19 +19,19 @@ int main(){
 		if(temp[q] >= 'a' && temp[q] <= 'z' || temp[q] >= 'A' && temp[q] <= 'Z'){
 			carray[location++] = temp[q];
 		}
-	}
+	}	//get letters
 	len = strlen(carray);
 	for(int q=0; q<len; q++){
 		if(carray[q] >= 'A' && carray[q] <= 'Z')
 			carray[q] ^= 32;
-	}
+	}	//captial and small letters switch
 
 	for(i=0;i<len/2;i++){
 		if(carray[i]!=carray[len-1-i]){
 			is_palindrome=0;
 			break;
 		}
-	}
+	}	//determine is_palindrome
 	if(is_palindrome) 	cout<<"The string is a palindrome\n";
 	else 				cout<<"The string isn't a palindrome\n";
 	return 0;
