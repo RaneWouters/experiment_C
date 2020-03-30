@@ -38,6 +38,6 @@ int main() {
 	cout << "Number_row=" << '\t' << row << '\n';
 	cout << "Number_word=" << '\t' << word << '\n';
 	cout << "Number_character=" << '\t' << character << '\n';
-	system("pause");
+	system("pause");	
 	return 0;
 }
