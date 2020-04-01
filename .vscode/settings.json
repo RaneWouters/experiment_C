@@ -5,6 +5,7 @@
         "cstring": "cpp",
         "*.tcc": "cpp",
         "typeinfo": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "cstdio": "cpp"
     }
 }
