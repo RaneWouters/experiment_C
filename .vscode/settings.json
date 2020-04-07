@@ -6,6 +6,8 @@
         "*.tcc": "cpp",
         "typeinfo": "cpp",
         "string": "cpp",
-        "cstdio": "cpp"
+        "cstdio": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp"
     }
 }
