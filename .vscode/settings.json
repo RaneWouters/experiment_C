@@ -8,6 +8,11 @@
         "string": "cpp",
         "cstdio": "cpp",
         "vector": "cpp",
-        "initializer_list": "cpp"
+        "initializer_list": "cpp",
+        "deque": "cpp",
+        "system_error": "cpp",
+        "array": "cpp",
+        "iosfwd": "cpp",
+        "unordered_map": "cpp"
     }
 }
