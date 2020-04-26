@@ -32,7 +32,7 @@ int main(){
 			break;
 		}
 	}	//determine is_palindrome
-	if(is_palindrome) 	cout<<"The string is a palindrome\n";
-	else 				cout<<"The string isn't a palindrome\n";
+	if(is_palindrome)   cout<<"The string is a palindrome\n";
+	else 			    cout<<"The string isn't a palindrome\n";
 	return 0;
 }

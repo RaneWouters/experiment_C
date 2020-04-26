@@ -1,7 +1,12 @@
 CC = g++
-6_4: 6_4.cpp Set.o
-	$(CC) 6_4.cpp Set.o -o 6_4
-Set.o: Set.cpp
-	$(CC) -c Set.cpp
+#CFLAGS =
+OBJS = 6_4.o Set.o
+TARGET = 6_4
+RM = rm
+
+$(TARGET): $(OBJS)
+	$(CC) $^ -o $@
+%.o: %.cpp
+	$(CC) -c $<
 clean:
-	rm *.o 6_4 *.exe
+	$(RM) $(TARGET) $(OBJS)
